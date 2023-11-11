@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dsa"
+version = "0.1.0"
+description = "Mastering Data Structure and Algorithms"
+authors = ["Nishat"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+nose = "^1.3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
